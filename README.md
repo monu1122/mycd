@@ -1,6 +1,6 @@
 # mycd
 
- C++ code:
+## C++ code:
 	to build c++ code 
 	cd cpp
 	make clean
@@ -19,7 +19,7 @@
 	 
 	 ./test
 	 
-golang code:
+## golang code:
 	to build golang code
 	cd go
 	make clean
