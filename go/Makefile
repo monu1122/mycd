@@ -6,7 +6,7 @@ cd:
 
 test:
 	@echo "building unit test"
-	go test -v ./mycd
+	go test -v github.com/monu1122/mycd/go/mycd
 
 clean:
-	rm cd test
+	rm main test

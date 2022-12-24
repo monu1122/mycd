@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"./mycd"
+	"github.com/monu1122/mycd/go/mycd"
 )
 
 func main() {

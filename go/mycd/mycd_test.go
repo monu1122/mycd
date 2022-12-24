@@ -2,7 +2,6 @@ package mycd
 
 import (
 	"bytes"
-	"fmt"
 	"io"
 	"os"
 	"testing"
