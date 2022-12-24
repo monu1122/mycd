@@ -1,12 +1,13 @@
 all: mycd test
 
-cd:
+mycd:
 	@echo "building cd"
-	go build main.go 
+	go build main.go
+	cp main ../bin/mycd
 
 test:
 	@echo "building unit test"
 	go test -v github.com/monu1122/mycd/go/mycd
 
 clean:
-	rm main test
+	rm -f main ../bin/mycd
